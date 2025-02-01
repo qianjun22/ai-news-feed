@@ -10,6 +10,11 @@ package-lock.json
 .env.production
 config.js
 
+# Generated assets
+assets/images/*.png
+assets/images/favicon-*.png
+assets/images/apple-touch-icon.png
+
 # IDE files
 .vscode/
 .idea/
