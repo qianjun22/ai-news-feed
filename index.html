@@ -7,35 +7,47 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="description" content="Stay updated with the latest AI news, analysis, and expert interviews.">
     <meta name="keywords" content="AI, Artificial Intelligence, News, Technology, Analysis, Interviews">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>AI News Feed</h1>
-        <nav>
-            <ul>
-                <li><a href="#highlights">Highlights</a></li>
-                <li><a href="#news-list">Latest News</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>AI News Feed</h1>
+            <nav>
+                <ul>
+                    <li><a href="#highlights">Highlights</a></li>
+                    <li><a href="#news-list">Latest News</a></li>
+                    <li><a href="#analysis">Analysis</a></li>
+                    <li><a href="#interviews">Interviews</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
+
+    <main class="container">
         <section id="highlights" aria-labelledby="highlights-heading">
-            <h2 id="highlights-heading">Highlights</h2>
-            <div id="highlight-content" aria-live="polite">
+            <h2 id="highlights-heading">Today's Highlights</h2>
+            <div id="highlight-content" aria-live="polite" class="highlight-grid">
                 <!-- Highlighted news items will be loaded here -->
             </div>
         </section>
+
         <section id="news-list" aria-labelledby="news-list-heading">
             <h2 id="news-list-heading">Latest News</h2>
-            <div id="news-content" aria-live="polite">
+            <div id="news-content" aria-live="polite" class="news-grid">
                 <!-- News items will be loaded here -->
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 AI News Feed</p>
+        <div class="container">
+            <p>&copy; 2024 AI News Feed</p>
+        </div>
     </footer>
+    
     <script src="script.js"></script>
 </body>
 </html> 

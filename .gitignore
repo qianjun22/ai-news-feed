@@ -6,17 +6,29 @@ package-lock.json
 .env
 .env.local
 .env.*.local
+.env.development
+.env.production
 
 # IDE files
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+*.swp
+*.swo
 
 # OS files
 .DS_Store
 Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 
 # Build files
 dist/
-build/ 
+build/
+coverage/
+.cache/
+.parcel-cache/ 
