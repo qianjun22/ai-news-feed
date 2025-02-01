@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI News Feed</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
     <meta name="description" content="Stay updated with the latest AI news, analysis, and expert interviews.">
     <meta name="keywords" content="AI, Artificial Intelligence, News, Technology, Analysis, Interviews">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,6 +52,11 @@
         </div>
     </footer>
     
-    <script src="script.js"></script>
+    <!-- Load Supabase first -->
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <!-- Then load our configuration -->
+    <script src="/config.js"></script>
+    <!-- Finally load our application code -->
+    <script src="/script.js"></script>
 </body>
 </html> 
