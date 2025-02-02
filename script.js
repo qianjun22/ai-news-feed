@@ -25,8 +25,8 @@ async function fetchNews() {
         const { data: articles, error } = await supabaseClient
             .from('articles')
             .select('*')
-            .order('created_at', { ascending: false })
-            .limit(10);
+            .order('published_at', { ascending: false })
+            .limit(20);
 
         if (error) throw error;
         
@@ -66,15 +66,15 @@ function groupArticlesByDate(articles) {
         
         let key;
         if (diff < 24) {
-            key = 'Today';
+            key = 'TODAY';
         } else if (diff < 48) {
-            key = 'Yesterday';
+            key = 'YESTERDAY';
         } else {
             key = date.toLocaleDateString('en-US', {
                 weekday: 'long',
                 month: 'short',
                 day: 'numeric'
-            });
+            }).toUpperCase();
         }
         
         if (!groups[key]) groups[key] = [];
@@ -98,15 +98,17 @@ function renderNews(articles) {
     function getNewsIndicator(article) {
         const hoursSincePublished = (new Date() - new Date(article.published_at)) / (1000 * 60 * 60);
         
-        if (hoursSincePublished < 24) {
-            return '🔥'; // Breaking/New
+        if (hoursSincePublished < 12) {
+            return '🔥'; // Breaking/Hot
         }
         
         switch (article.category.toLowerCase()) {
             case 'research': return '🔬';
             case 'industry': return '🏢';
             case 'ethics': return '⚖️';
-            case 'healthcare': return '🏥';
+            case 'analysis': return '📊';
+            case 'funding': return '💰';
+            case 'policy': return '📜';
             default: return '📰';
         }
     }
@@ -114,18 +116,22 @@ function renderNews(articles) {
     const newsHTML = Object.entries(groupedArticles).map(([date, dateArticles]) => `
         <div class="news-date-group" role="region" aria-label="${date} news">
             <h2 class="date-header">${date}</h2>
-            ${dateArticles.map(article => `
+            ${dateArticles.map((article, index) => `
                 <div class="news-card" role="article">
                     <span class="news-indicator" role="img" aria-label="${article.category}">${getNewsIndicator(article)}</span>
                     <div class="news-main">
-                        <h3 title="${article.title}">${article.title}</h3>
-                        <p title="${article.excerpt}">${article.excerpt}</p>
-                    </div>
-                    <div class="article-meta">
-                        <a href="${article.source_url}" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           aria-label="Read full article from ${article.source_name}">${article.source_name}</a>
+                        <div>
+                            <h3 title="${article.title}" onclick="toggleSummary(this)" data-article-id="${article.id}">
+                                ${index + 1}. ${article.title} - ${formatTimeAgo(article.published_at)}
+                            </h3>
+                            <div class="news-summary">
+                                <p>${article.excerpt}</p>
+                                <div class="news-summary-meta">
+                                    <span>${article.source_name}</span>
+                                    <a href="${article.source_url}" target="_blank" rel="noopener noreferrer">Read full article →</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             `).join('')}
@@ -138,22 +144,46 @@ function renderNews(articles) {
 function getSampleNews() {
     return [
         {
-            title: 'Latest AI Breakthrough in Natural Language Processing',
-            excerpt: 'Researchers develop new transformer model that achieves state-of-the-art results...',
-            image_url: 'https://picsum.photos/seed/ai1/400/300',
-            category: 'Research'
+            title: "DeepSeek: Separating fact from hype",
+            excerpt: "An in-depth analysis of DeepSeek's capabilities and market position",
+            published_at: new Date(Date.now() - 9 * 60 * 60 * 1000), // 9 hours ago
+            category: "Analysis",
+            source_name: "AI Research Daily"
         },
         {
-            title: 'AI Ethics Guidelines Released',
-            excerpt: 'Major tech companies collaborate on new AI ethics framework...',
-            image_url: 'https://picsum.photos/seed/ai2/400/300',
-            category: 'Industry'
+            title: "AI agents could birth the first one-person unicorn — but at what societal cost?",
+            excerpt: "Examining the implications of AI-driven solo entrepreneurship",
+            published_at: new Date(Date.now() - 10 * 60 * 60 * 1000), // 10 hours ago
+            category: "Industry",
+            source_name: "TechCrunch"
         },
         {
-            title: 'Machine Learning in Healthcare',
-            excerpt: 'New AI system shows promising results in early disease detection...',
-            image_url: 'https://picsum.photos/seed/ai3/400/300',
-            category: 'Healthcare'
+            title: "OpenAI used this subreddit to test AI persuasion",
+            excerpt: "Investigation reveals OpenAI's testing grounds for persuasive AI",
+            published_at: new Date(Date.now() - 24 * 60 * 60 * 1000), // 1 day ago
+            category: "Research",
+            source_name: "AI Ethics Watch"
+        },
+        {
+            title: "Sam Altman: OpenAI has been on the 'wrong side of history' concerning open source",
+            excerpt: "OpenAI's CEO addresses criticism about the company's stance on open source",
+            published_at: new Date(Date.now() - 24 * 60 * 60 * 1000),
+            category: "Industry",
+            source_name: "Tech Insider"
         }
     ];
+}
+
+function toggleSummary(element) {
+    // Close any other open summaries
+    const allSummaries = document.querySelectorAll('.news-summary.active');
+    allSummaries.forEach(summary => {
+        if (summary !== element.nextElementSibling) {
+            summary.classList.remove('active');
+        }
+    });
+
+    // Toggle the clicked summary
+    const summary = element.nextElementSibling;
+    summary.classList.toggle('active');
 }
