@@ -4,6 +4,22 @@ A minimalist, accessible news aggregator for AI-related news and research.
 
 ## Progress Log
 
+### February 2, 2024
+
+1. **Load More Functionality**
+   - Added "Load More" button for pagination
+   - Articles are appended to the list without replacing existing ones
+   - Improved article numbering and UI adjustments
+
+2. **UI Enhancements**
+   - Removed "TODAY" subtitle for today's articles
+   - Ensured dynamic grouping by date
+
+3. **Crawler and Database Updates**
+   - Implemented deduplication logic using hashes
+   - Updated database schema to include hash columns
+   - Enhanced crawler to check for duplicates before saving
+
 ### February 1, 2024
 
 1. **Initial Setup**
@@ -32,17 +48,6 @@ A minimalist, accessible news aggregator for AI-related news and research.
    - Source attribution and direct links
    - Category-based emoji indicators
    - Clickable titles with expandable summaries
-
-### February 2, 2024
-
-1. **Load More Functionality**
-   - Added "Load More" button for pagination
-   - Articles are appended to the list without replacing existing ones
-   - Improved article numbering and UI adjustments
-
-2. **UI Enhancements**
-   - Removed "TODAY" subtitle for today's articles
-   - Ensured dynamic grouping by date
 
 ## Progress on Development Plan
 
@@ -78,11 +83,16 @@ ainews/
 ├── index.html          # Main HTML file
 ├── styles.css          # Styling
 ├── script.js           # Frontend logic
-├── config.js          # Supabase configuration (gitignored)
+├── config.js           # Supabase configuration (gitignored)
 ├── config.example.js   # Example configuration
 ├── assets/
 │   └── images/         # Icons and images
-└── database/          # SQL schema files
+├── crawler/            # Crawler scripts
+│   ├── main.py         # Main crawler script
+│   ├── parsers/        # Parsers for different sources
+│   ├── utils/          # Utility functions
+│   └── config/         # Crawler configuration
+└── database/           # SQL schema files
     ├── 01_articles.sql
     ├── 02_ai_summaries.sql
     ├── 03_audio_content.sql
