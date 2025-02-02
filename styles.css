@@ -184,4 +184,29 @@ footer {
     padding: 2rem 0;
     margin-top: 4rem;
     border-top: 1px solid var(--gray-light);
+}
+
+/* Load More button */
+.load-more-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.load-more-button {
+    background-color: white;
+    border: 1px solid var(--gray-light);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.load-more-button:hover {
+    background-color: var(--hover-bg);
+}
+
+.load-more-button.hidden {
+    display: none;
 } 

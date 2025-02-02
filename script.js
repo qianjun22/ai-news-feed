@@ -1,4 +1,7 @@
 let supabaseClient;
+let currentOffset = 0;
+const PAGE_SIZE = 20;
+let isLoading = false;
 
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize Supabase
@@ -6,9 +9,18 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded, checking Supabase connection...');
     console.log('Using Supabase URL:', SUPABASE_CONFIG.url);
     fetchNews();
+
+    // Add Load More button handler
+    document.getElementById('load-more').addEventListener('click', async () => {
+        if (!isLoading) {
+            isLoading = true;
+            currentOffset += PAGE_SIZE;
+            await fetchNews(currentOffset);
+        }
+    });
 });
 
-async function fetchNews() {
+async function fetchNews(offset = 0) {
     try {
         console.log('Fetching news from Supabase...');
         // Test connection first
@@ -26,15 +38,20 @@ async function fetchNews() {
             .from('articles')
             .select('*')
             .order('published_at', { ascending: false })
-            .limit(20);
+            .range(offset, offset + PAGE_SIZE - 1);
 
         if (error) throw error;
         
         console.log('Fetched articles:', articles);
         renderNews(articles);
+        
+        // Show/hide load more button based on results
+        const loadMoreButton = document.getElementById('load-more');
+        loadMoreButton.classList.toggle('hidden', articles.length < PAGE_SIZE);
+        isLoading = false;
+
     } catch (error) {
         console.error('Error fetching news:', error);
-        // Fall back to sample data if there's an error
         console.log('Falling back to sample data...');
         renderNews(getSampleNews());
     }
@@ -122,7 +139,7 @@ function renderNews(articles) {
                     <div class="news-main">
                         <div>
                             <h3 title="${article.title}" onclick="toggleSummary(this)" data-article-id="${article.id}">
-                                ${index + 1}. ${article.title} - ${formatTimeAgo(article.published_at)}
+                                ${currentOffset + index + 1}. ${article.title} - ${formatTimeAgo(article.published_at)}
                             </h3>
                             <div class="news-summary">
                                 <p>${article.excerpt}</p>
@@ -138,7 +155,11 @@ function renderNews(articles) {
         </div>
     `).join('');
 
-    newsContent.innerHTML = newsHTML;
+    if (currentOffset === 0) {
+        newsContent.innerHTML = newsHTML;
+    } else {
+        newsContent.insertAdjacentHTML('beforeend', newsHTML);
+    }
 }
 
 function getSampleNews() {
@@ -186,4 +207,49 @@ function toggleSummary(element) {
     // Toggle the clicked summary
     const summary = element.nextElementSibling;
     summary.classList.toggle('active');
+}
+
+function appendNews(newArticles) {
+    const newsContent = document.getElementById('news-content');
+    const groupedArticles = groupArticlesByDate(newArticles);
+
+    Object.entries(groupedArticles).forEach(([date, dateArticles]) => {
+        let dateGroup = newsContent.querySelector(`[aria-label="${date} news"]`);
+        
+        if (!dateGroup) {
+            dateGroup = document.createElement('div');
+            dateGroup.className = 'news-date-group';
+            dateGroup.setAttribute('role', 'region');
+            dateGroup.setAttribute('aria-label', `${date} news`);
+            
+            // Only add the date header if it's not "TODAY"
+            if (date !== 'TODAY') {
+                dateGroup.innerHTML = `<h2 class="date-header">${date}</h2>`;
+            }
+            
+            newsContent.appendChild(dateGroup);
+        }
+
+        const articlesHTML = dateArticles.map((article, index) => `
+            <div class="news-card" role="article">
+                <span class="news-indicator" role="img" aria-label="${article.category}">${getNewsIndicator(article)}</span>
+                <div class="news-main">
+                    <div>
+                        <h3 title="${article.title}" onclick="toggleSummary(this)" data-article-id="${article.id}">
+                            ${currentOffset + index + 1}. ${article.title} - ${formatTimeAgo(article.published_at)}
+                        </h3>
+                        <div class="news-summary">
+                            <p>${article.excerpt}</p>
+                            <div class="news-summary-meta">
+                                <span>${article.source_name}</span>
+                                <a href="${article.source_url}" target="_blank" rel="noopener noreferrer">Read full article →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+
+        dateGroup.insertAdjacentHTML('beforeend', articlesHTML);
+    });
 }

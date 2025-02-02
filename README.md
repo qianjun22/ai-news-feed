@@ -33,6 +33,17 @@ A minimalist, accessible news aggregator for AI-related news and research.
    - Category-based emoji indicators
    - Clickable titles with expandable summaries
 
+### February 2, 2024
+
+1. **Load More Functionality**
+   - Added "Load More" button for pagination
+   - Articles are appended to the list without replacing existing ones
+   - Improved article numbering and UI adjustments
+
+2. **UI Enhancements**
+   - Removed "TODAY" subtitle for today's articles
+   - Ensured dynamic grouping by date
+
 ## Progress on Development Plan
 
 ✅ Phase 1: Basic Setup and Data Structure (100% Complete)
@@ -41,11 +52,12 @@ A minimalist, accessible news aggregator for AI-related news and research.
 - [x] Basic frontend structure
 - [x] Supabase integration
 
-🟨 Phase 2: Core Features (60% Complete)
+🟨 Phase 2: Core Features (70% Complete)
 - [x] News display and formatting
 - [x] Time-based grouping
 - [x] Category indicators
 - [x] Expandable summaries
+- [x] Load More functionality
 - [ ] Search functionality
 - [ ] Filtering system
 
@@ -86,5 +98,12 @@ ainews/
 
 ## Development
 1. Copy `config.example.js` to `config.js` and add your Supabase credentials
-2. Run a local server (e.g., `npm start`)
-3. Visit `http://localhost:3000` 
+2. Copy `crawler/config/settings.example.py` to `crawler/config/settings.py` and add your Supabase credentials
+3. Run a local server (e.g., `npm start`)
+4. Visit `http://localhost:3000`
+
+## Crawler Setup
+1. Install Python dependencies: `pip install -r crawler/requirements.txt`
+2. Copy settings: `cp crawler/config/settings.example.py crawler/config/settings.py`
+3. Update Supabase credentials in `crawler/config/settings.py`
+4. Run crawler: `python -m crawler.main` 
