@@ -40,47 +40,95 @@ async function fetchNews() {
     }
 }
 
+function formatTimeAgo(date) {
+    const now = new Date();
+    const diff = Math.floor((now - new Date(date)) / 1000);
+    
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+    if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+    
+    return new Date(date).toLocaleDateString('en-US', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+    });
+}
+
+function groupArticlesByDate(articles) {
+    const groups = {};
+    
+    articles.forEach(article => {
+        const date = new Date(article.published_at);
+        const now = new Date();
+        const diff = Math.floor((now - date) / (1000 * 60 * 60));
+        
+        let key;
+        if (diff < 24) {
+            key = 'Today';
+        } else if (diff < 48) {
+            key = 'Yesterday';
+        } else {
+            key = date.toLocaleDateString('en-US', {
+                weekday: 'long',
+                month: 'short',
+                day: 'numeric'
+            });
+        }
+        
+        if (!groups[key]) groups[key] = [];
+        groups[key].push(article);
+    });
+    
+    return groups;
+}
+
 function renderNews(articles) {
     const newsContent = document.getElementById('news-content');
-    const highlightContent = document.getElementById('highlight-content');
     
     if (articles.length === 0) {
         newsContent.innerHTML = '<p>No news articles available.</p>';
         return;
     }
     
-    // Render highlight
-    const highlight = articles[0];
-    highlightContent.innerHTML = `
-        <div class="news-card featured">
-            <img src="${highlight.image_url || 'https://picsum.photos/seed/default/400/300'}" alt="${highlight.title}">
-            <div class="news-content">
-                <span class="category">${highlight.category}</span>
-                <h3>${highlight.title}</h3>
-                <p>${highlight.excerpt}</p>
-                <div class="article-meta">
-                    <span class="source">Source: ${highlight.source_name}</span>
-                    ${highlight.reading_time_minutes ? `<span class="reading-time">${highlight.reading_time_minutes} min read</span>` : ''}
-                </div>
-                <a href="${highlight.source_url}" target="_blank" rel="noopener noreferrer">Read more</a>
-            </div>
-        </div>
-    `;
+    const groupedArticles = groupArticlesByDate(articles);
+    
+    // Helper function to get emoji based on category and age
+    function getNewsIndicator(article) {
+        const hoursSincePublished = (new Date() - new Date(article.published_at)) / (1000 * 60 * 60);
+        
+        if (hoursSincePublished < 24) {
+            return '🔥'; // Breaking/New
+        }
+        
+        switch (article.category.toLowerCase()) {
+            case 'research': return '🔬';
+            case 'industry': return '🏢';
+            case 'ethics': return '⚖️';
+            case 'healthcare': return '🏥';
+            default: return '📰';
+        }
+    }
 
-    // Render other news
-    const newsHTML = articles.slice(1).map(article => `
-        <div class="news-card">
-            <img src="${article.image_url || 'https://picsum.photos/seed/default/400/300'}" alt="${article.title}">
-            <div class="news-content">
-                <span class="category">${article.category}</span>
-                <h3>${article.title}</h3>
-                <p>${article.excerpt}</p>
-                <div class="article-meta">
-                    <span class="source">Source: ${article.source_name}</span>
-                    ${article.reading_time_minutes ? `<span class="reading-time">${article.reading_time_minutes} min read</span>` : ''}
+    const newsHTML = Object.entries(groupedArticles).map(([date, dateArticles]) => `
+        <div class="news-date-group" role="region" aria-label="${date} news">
+            <h2 class="date-header">${date}</h2>
+            ${dateArticles.map(article => `
+                <div class="news-card" role="article">
+                    <span class="news-indicator" role="img" aria-label="${article.category}">${getNewsIndicator(article)}</span>
+                    <div class="news-main">
+                        <h3 title="${article.title}">${article.title}</h3>
+                        <p title="${article.excerpt}">${article.excerpt}</p>
+                    </div>
+                    <div class="article-meta">
+                        <a href="${article.source_url}" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Read full article from ${article.source_name}">${article.source_name}</a>
+                    </div>
                 </div>
-                <a href="${article.source_url}" target="_blank" rel="noopener noreferrer">Read more</a>
-            </div>
+            `).join('')}
         </div>
     `).join('');
 

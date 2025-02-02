@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI News Feed</title>
+    <title>AI News 24HR</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
@@ -11,6 +11,11 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
     <meta name="description" content="Stay updated with the latest AI news, analysis, and expert interviews.">
     <meta name="keywords" content="AI, Artificial Intelligence, News, Technology, Analysis, Interviews">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI News 24HR">
+    <meta property="og:description" content="Latest AI news in a machine-readable format">
+    <link rel="alternate" type="application/rss+xml" title="AI News 24HR RSS Feed" href="/rss.xml">
+    <link rel="alternate" type="application/json" title="AI News 24HR JSON Feed" href="/feed.json">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -18,28 +23,12 @@
 <body>
     <header>
         <div class="container">
-            <h1>AI News Feed</h1>
-            <nav>
-                <ul>
-                    <li><a href="#highlights">Highlights</a></li>
-                    <li><a href="#news-list">Latest News</a></li>
-                    <li><a href="#analysis">Analysis</a></li>
-                    <li><a href="#interviews">Interviews</a></li>
-                </ul>
-            </nav>
+            <h1>AI News 24HR</h1>
         </div>
     </header>
 
     <main class="container">
-        <section id="highlights" aria-labelledby="highlights-heading">
-            <h2 id="highlights-heading">Today's Highlights</h2>
-            <div id="highlight-content" aria-live="polite" class="highlight-grid">
-                <!-- Highlighted news items will be loaded here -->
-            </div>
-        </section>
-
         <section id="news-list" aria-labelledby="news-list-heading">
-            <h2 id="news-list-heading">Latest News</h2>
             <div id="news-content" aria-live="polite" class="news-grid">
                 <!-- News items will be loaded here -->
             </div>
@@ -48,7 +37,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 AI News Feed</p>
+            <p>&copy; 2024 AI News 24HR</p>
         </div>
     </footer>
     
