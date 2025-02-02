@@ -39,6 +39,3 @@ build/
 coverage/
 .cache/
 .parcel-cache/
-
-# Google service account key
-ai-news-feed-449705-afd28f77d175.json
