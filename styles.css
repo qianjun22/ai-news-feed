@@ -140,6 +140,7 @@ section {
 .news-main {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     min-width: 0;
 }
 
@@ -160,6 +161,13 @@ section {
     font-size: 1rem;
     filter: saturate(1.2) brightness(1.1);
     transform: scale(1.1);
+}
+
+.news-source {
+    font-size: 0.75rem;
+    color: var(--secondary-color);
+    text-align: right;
+    margin-left: 1rem;
 }
 
 /* Typography */

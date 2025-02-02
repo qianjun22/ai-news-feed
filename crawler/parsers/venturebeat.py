@@ -31,12 +31,18 @@ class VentureBeatParser(BaseParser):
         if not title_elem:
             return None
 
-        return {
+        # Use the datetime attribute for the published time
+        published_time = time_elem['datetime'] if time_elem and time_elem.has_attr('datetime') else ''
+
+        article_data = {
             'title': title_elem.text.strip(),
             'source_url': title_elem['href'] if title_elem.has_attr('href') else '',
             'excerpt': excerpt_elem.text.strip() if excerpt_elem else '',
             'source_name': 'VentureBeat',
             'raw_html': str(article),
-            'published_at': parse_date(time_elem.text if time_elem else '', 'venturebeat'),
+            'published_at': published_time,
             'language': 'en'
-        } 
+        }
+        
+        #print(article_data)
+        return article_data 

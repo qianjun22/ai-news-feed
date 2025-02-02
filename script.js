@@ -36,7 +36,7 @@ async function fetchNews(offset = 0) {
 
         const { data: articles, error } = await supabaseClient
             .from('articles')
-            .select('*')
+            .select('id, title, excerpt, source_url, source_name, category, published_at')
             .order('published_at', { ascending: false })
             .range(offset, offset + PAGE_SIZE - 1);
 
@@ -103,43 +103,23 @@ function groupArticlesByDate(articles) {
 
 function renderNews(articles) {
     const newsContent = document.getElementById('news-content');
+    const groupedArticles = groupArticlesByDate(articles);
     
     if (articles.length === 0) {
         newsContent.innerHTML = '<p>No news articles available.</p>';
         return;
     }
     
-    const groupedArticles = groupArticlesByDate(articles);
-    
-    // Helper function to get emoji based on category and age
-    function getNewsIndicator(article) {
-        const hoursSincePublished = (new Date() - new Date(article.published_at)) / (1000 * 60 * 60);
-        
-        if (hoursSincePublished < 12) {
-            return '🔥'; // Breaking/Hot
-        }
-        
-        switch (article.category.toLowerCase()) {
-            case 'research': return '🔬';
-            case 'industry': return '🏢';
-            case 'ethics': return '⚖️';
-            case 'analysis': return '📊';
-            case 'funding': return '💰';
-            case 'policy': return '📜';
-            default: return '📰';
-        }
-    }
-
     const newsHTML = Object.entries(groupedArticles).map(([date, dateArticles]) => `
         <div class="news-date-group" role="region" aria-label="${date} news">
             <h2 class="date-header">${date}</h2>
-            ${dateArticles.map((article, index) => `
+            ${dateArticles.map((article) => `
                 <div class="news-card" role="article">
                     <span class="news-indicator" role="img" aria-label="${article.category}">${getNewsIndicator(article)}</span>
                     <div class="news-main">
                         <div>
                             <h3 title="${article.title}" onclick="toggleSummary(this)" data-article-id="${article.id}">
-                                ${currentOffset + index + 1}. ${article.title} - ${formatTimeAgo(article.published_at)}
+                                ${article.title} - ${formatTimeAgo(article.published_at)}
                             </h3>
                             <div class="news-summary">
                                 <p>${article.excerpt}</p>
@@ -148,6 +128,9 @@ function renderNews(articles) {
                                     <a href="${article.source_url}" target="_blank" rel="noopener noreferrer">Read full article →</a>
                                 </div>
                             </div>
+                        </div>
+                        <div class="news-source">
+                            Source: ${article.source_name}
                         </div>
                     </div>
                 </div>
@@ -230,13 +213,13 @@ function appendNews(newArticles) {
             newsContent.appendChild(dateGroup);
         }
 
-        const articlesHTML = dateArticles.map((article, index) => `
+        const articlesHTML = dateArticles.map((article) => `
             <div class="news-card" role="article">
                 <span class="news-indicator" role="img" aria-label="${article.category}">${getNewsIndicator(article)}</span>
                 <div class="news-main">
                     <div>
                         <h3 title="${article.title}" onclick="toggleSummary(this)" data-article-id="${article.id}">
-                            ${currentOffset + index + 1}. ${article.title} - ${formatTimeAgo(article.published_at)}
+                            ${article.title} - ${formatTimeAgo(article.published_at)}
                         </h3>
                         <div class="news-summary">
                             <p>${article.excerpt}</p>
@@ -246,10 +229,31 @@ function appendNews(newArticles) {
                             </div>
                         </div>
                     </div>
+                    <div class="news-source">
+                        Source: ${article.source_name}
+                    </div>
                 </div>
             </div>
         `).join('');
 
         dateGroup.insertAdjacentHTML('beforeend', articlesHTML);
     });
+}
+
+function getNewsIndicator(article) {
+    const hoursSincePublished = (new Date() - new Date(article.published_at)) / (1000 * 60 * 60);
+    
+    if (hoursSincePublished < 12) {
+        return '🔥'; // Breaking/Hot
+    }
+    
+    switch (article.category.toLowerCase()) {
+        case 'research': return '🔬';
+        case 'industry': return '🏢';
+        case 'ethics': return '⚖️';
+        case 'analysis': return '📊';
+        case 'funding': return '💰';
+        case 'policy': return '📜';
+        default: return '📰';
+    }
 }

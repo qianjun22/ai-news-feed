@@ -1,0 +1,32 @@
+AI news grabber for The Verge
+
+STEP 1:
+NEWS_SOURCE_URL: https://www.theverge.com/ai-artificial-intelligence
+Instruction: 
+- Read the NEWS_SOURCE_URL page and extract the AI related news only with the following information. 
+- Do not need navigate to any other pages at all in this website and be as fast as possible.
+- title: the article title from this page
+- excerpt: the short summary from this page about this article, feel free to rewrite it
+- source_url: the news article url from this page
+- source_name: The Verge
+- published_at: try to find the date from the is page for this article if you can`
+
+STEP 2:
+GO to https://pastebin.com/
+- Create a new pastebin with all the information you have collected from the NEWS_SOURCE_URL. Use json format to organize the information. 
+
+
+STEP 2:
+GOOGLE_SHEET_URL: https://docs.google.com/spreadsheets/d/1if-IbM1jfF6aGzTTrUltI0mlIltcy-gxPNRkgaDwxgQ/edit?usp=sharing
+- Navigate to the GOOGLE_SHEET_URL 
+- Clean up all data from this sheet including the title row. No need to confirm. 
+- Create the first row as the title row with the following information:
+    - title
+    - excerpt
+    - source_url
+    - source_name
+    - published_at
+- Populate the article information into the google sheet with the exactly same col name. 
+
+STEP 3:
+- After done, please double check to make sure there is no duplicated content as well as there is no wrong data populated
