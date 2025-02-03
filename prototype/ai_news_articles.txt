@@ -1,0 +1,290 @@
+Title: The latest iteration of a legacy
+Excerpt: Founded at the Massachusetts Institute of Technology in 1899, MIT Technology Review is a world-renowned, independent media company. It provides insight, analysis, reviews, interviews, and live events that explain the newest technologies and their commercial, social, and political impact. The publication continues to evolve, adapting to the changing landscape of technology and media.
+Source URL: https://www.technologyreview.com/supertopic/about/
+Category: general
+Published At: 2025-01-31
+
+(Note: The provided webpage content does not contain multiple articles, but only a single article excerpt. If there were more articles, they would be formatted similarly.)
+
+Title: ChatGPT’s agent can now do deep research for you  
+Excerpt: The deep research tool launching today for ChatGPT Pro subscribers is an AI agent that shows its steps. This new feature enhances the capabilities of ChatGPT, allowing users to see the reasoning behind the AI's responses. Richard Lawler reports that this tool aims to improve the transparency and reliability of AI-generated information.  
+Source URL: https://www.theverge.com/news/604902/chagpt-deep-research-ai-agent  
+Category: general  
+Published At: 2025-02-03  
+
+Title: From ChatGPT to Gemini: how AI is rewriting the internet  
+Excerpt: The article discusses how advancements in AI-powered chatbots are transforming internet usage. These chatbots can find information and present it in a conversational format, changing the way users interact with online content. The Verge staff highlights the rapid evolution of AI technologies and their implications for the future of information retrieval.  
+Source URL: https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai  
+Category: general  
+Published At: 2025-02-03  
+
+Title: OpenAI teases ‘Deep Research’ stream at 7PM ET.  
+Excerpt: OpenAI is set to showcase its latest developments in AI during a livestream event. After a week of significant AI advancements, including the introduction of DeepSeek, the company is eager to share its progress. Richard Lawler notes that this follows a series of announcements from OpenAI, including new features for ChatGPT.  
+Source URL: https://www.theverge.com/news/604900/openai-deep-research-livestream  
+Category: general  
+Published At: 2025-02-02  
+
+Title: Google’s AI Super Bowl ad is wrong about cheese  
+Excerpt: The article critiques Google's Super Bowl advertisement that inaccurately represents cheese. Emma Roth examines the implications of misleading advertisements in the context of AI and consumer perception. The ad's inaccuracies highlight the challenges companies face in effectively communicating their AI capabilities to the public.  
+Source URL: https://www.theverge.com/news/604679/google-ai-super-bowl-ad-gouda-cheese  
+Category: general  
+Published At: 2025-02-01  
+
+Title: Amazon is investing billions more into its Mississippi data centers.  
+Excerpt: Amazon plans to invest an additional $6 billion into its Mississippi data centers, bringing the total investment to $16 billion. This expansion focuses on enhancing technology infrastructure, including servers and fiber-optic cables. Emma Roth reports that this move aligns with similar investments by other tech giants in the U.S.  
+Source URL: https://www.theverge.com/news/604677/amazon-is-investing-billions-more-into-its-mississippi-datacenter  
+Category: funding  
+Published At: 2025-02-01  
+
+Title: Microsoft is creating an “Advanced Planning Unit” to study AI.  
+Excerpt: Microsoft is establishing a new team to explore the future impacts of AI on society. This initiative follows the creation of an AI engineering division and aims to provide strategic recommendations based on cutting-edge research. Emma Roth discusses the potential implications of this unit for Microsoft's AI strategy.  
+Source URL: https://www.theverge.com/news/604673/microsoft-is-forming-an-advanced-planning-unit-to-study-ai  
+Category: industry  
+Published At: 2025-02-01  
+
+Title: GPT-5o will probably just be called GPT-5.  
+Excerpt: OpenAI CEO Sam Altman hinted that the next model, GPT-5, may not have a specific timeline for release. During a Reddit AMA, he also mentioned updates to the advanced voice mode and the full release of the o3 reasoning model. Emma Roth reports on the expectations surrounding OpenAI's future developments.  
+Source URL: https://www.theverge.com/news/604657/auto-draft  
+Category: general  
+Published At: 2025-02-01  
+
+Title: Microsoft Paint is getting a Copilot button, too  
+Excerpt: Microsoft is integrating a Copilot feature into Paint, enhancing user experience with AI assistance. Allison Johnson discusses how this addition reflects Microsoft's broader strategy to incorporate AI across its software products. The feature aims to simplify tasks for users, making creative processes more accessible.  
+Source URL: https://www.theverge.com/news/604509/microsoft-paint-copilot-button  
+Category: general  
+Published At: 2025-01-31  
+
+Title: Mr. Nvidia goes to the White House.  
+Excerpt: Jensen Huang, CEO of Nvidia, is scheduled to meet with President Trump at the White House. Richard Lawler notes that this meeting comes after Huang's absence from significant tech events, raising questions about Nvidia's role in the ongoing discussions about AI and technology policy.  
+Source URL: https://www.theverge.com/news/604454/mr-nvidia-goes-to-the-white-house  
+Category: policy  
+Published At: 2025-01-31  
+
+Title: DeepSeek: all the news about the startup that’s shaking up AI stocks  
+Excerpt: The Verge staff covers the rise of DeepSeek, a startup that is making waves in the AI industry. The article discusses the company's innovative approaches and its impact on AI stock markets. The rapid growth of DeepSeek raises questions about the future of AI investments and competition among tech firms.  
+Source URL: https://www.theverge.com/24353060/deepseek-ai-china-nvidia-openai  
+Category: industry  
+Published At: 2025-01-31  
+
+Title: AI is ‘an energy hog,’ but DeepSeek could change that  
+Excerpt: DeepSeek claims to use significantly less energy compared to its competitors, addressing concerns about the environmental impact of AI technologies. Justine Calma explores the implications of this innovation for the future of AI and its sustainability.  
+Source URL: https://www.theverge.com/climate-change/603622/deepseek-ai-environment-energy-climate  
+Category: ethics  
+Published At: 2025-01-31  
+
+Title: Sam Altman’s Stargate is science fiction  
+Excerpt: The article discusses Sam Altman's ambitious Stargate project, which could become one of the largest private computing infrastructure initiatives. However, it also raises concerns about the feasibility and potential pitfalls of such a massive undertaking. Kylie Robison analyzes the implications for the tech industry.  
+Source URL: https://www.theverge.com/openai/603952/sam-altman-stargate-ai-data-center-plan-hype-funding  
+Category: industry  
+Published At: 2025-01-31  
+
+Title: Chip race: Microsoft, Meta, Google, and Nvidia battle it out for AI chip supremacy  
+Excerpt: The Verge staff examines the competitive landscape of AI chip development among major tech companies. The article highlights the strategies employed by Microsoft, Meta, Google, and Nvidia as they vie for leadership in the AI hardware market.  
+Source URL: https://www.theverge.com/2024/2/1/24058186/ai-chips-meta-microsoft-google-nvidia  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: Justice Department sues to block $14 billion acquisition by Hewlett Packard Enterprise.  
+Excerpt: The DOJ has filed a lawsuit to block Hewlett Packard Enterprise's proposed $14 billion acquisition of Juniper Networks, citing concerns over market consolidation. Lauren Feiner reports on the implications of this legal action for the tech industry and the companies involved.  
+Source URL: https://www.theverge.com/news/603703/doj-sues-to-block-14-billion-deal-hewlett-packard-enterprises  
+Category: policy  
+Published At: 2025-01-30  
+
+Title: Meta’s Ray-Bans smart glasses sold more than 1 million units last year  
+Excerpt: Meta has reported that its Ray-Bans smart glasses achieved sales exceeding 1 million units in the past year. Emma Roth and Alex Heath discuss the implications of this milestone for Meta's hardware strategy and the future of smart glasses in the consumer market.  
+Source URL: https://www.theverge.com/meta/603674/meta-ray-ban-smart-glasses-sales  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: Is Tesla still a car company?  
+Excerpt: The article explores Tesla's evolving identity amid its expansion into AI and other technology sectors. Andrew J. Hawkins analyzes the implications of this shift for Tesla's future and its position in the automotive industry.  
+Source URL: https://www.theverge.com/tesla/603393/tesla-car-company-elon-musk-ai-earnings  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: Google’s ‘Ask for Me’ uses AI to call local businesses for you  
+Excerpt: Google has introduced a new feature called 'Ask for Me,' which allows users to utilize AI to make calls to local businesses. This innovation aims to streamline the process of obtaining information and services. The Verge staff discusses the potential impact of this feature on consumer interactions with businesses.  
+Source URL: https://www.theverge.com/news/603821/google-gemini-flash-2-0-ai-app  
+Category: general  
+Published At: 2025-01-31  
+
+Title: Google’s ‘Ask for Me’ uses AI to call local businesses for you  
+Excerpt: Google has introduced a new feature called "Ask for Me," which utilizes AI to make phone calls to local businesses on behalf of users. This tool is designed to streamline the process of obtaining information such as business hours or service availability. Emma Roth reports that this feature is part of Google's broader strategy to enhance user experience through AI technology. The service aims to save time for users who would otherwise have to make these calls themselves.  
+Source URL: https://www.theverge.com/news/603501/google-ask-for-me-search-labs  
+Category: general  
+Published At: 2025-01-30  
+
+Title: OpenAI targets a $340 billion valuation.  
+Excerpt: OpenAI is reportedly looking to raise up to $40 billion in funding, aiming for a valuation of $340 billion. The funding round would be led by SoftBank, which is expected to invest up to $25 billion. This comes alongside SoftBank's announcement of a $500 billion datacenter project with OpenAI, known as Stargate. Both companies are set to invest $19 billion each in this venture, indicating a significant commitment to AI infrastructure.  
+Source URL: https://www.theverge.com/openai/603577/openai-valuation-wsj-softbank  
+Category: funding  
+Published At: 2025-01-30  
+
+Title: The too-online finance dorks are at it again.  
+Excerpt: Elizabeth Lopatto discusses the latest antics from finance bloggers, particularly a humorous take from FT Alphaville and some unusual memes from Deutsche Bank. The article highlights the quirky side of finance commentary and the ongoing engagement between financial analysts and internet culture. The light-hearted nature of the piece reflects the blend of serious finance with the often absurd world of online memes.  
+Source URL: https://www.theverge.com/business/603443/the-too-online-finance-dorks-are-at-it-again  
+Category: general  
+Published At: 2025-01-30  
+
+Title: DeepSeek database left user data, chat histories exposed for anyone to see  
+Excerpt: A security breach in the DeepSeek database has exposed user data and chat histories, raising significant privacy concerns. Emma Roth reports that the incident highlights vulnerabilities in AI systems and the importance of data protection. The breach has prompted discussions about the ethical implications of AI technologies and the need for stricter security measures.  
+Source URL: https://www.theverge.com/news/603163/deepseek-breach-ai-security-database-exposed  
+Category: ethics  
+Published At: 2025-01-30  
+
+Title: Inside Microsoft’s quick embrace of DeepSeek  
+Excerpt: Tom Warren explores Microsoft's rapid integration of DeepSeek's AI technologies into its offerings. The article discusses how Microsoft is leveraging DeepSeek's capabilities to enhance its Azure cloud services and improve user experiences. The partnership signifies a strategic move to stay competitive in the AI landscape, particularly in the realm of data processing and analytics.  
+Source URL: https://www.theverge.com/notepad-microsoft-newsletter/603170/microsoft-deepseek-ai-azure-notepad  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: Purely AI-generated art can’t get copyright protection, says Copyright Office  
+Excerpt: Lauren Feiner reports that the U.S. Copyright Office has ruled that art created solely by AI does not qualify for copyright protection. This decision raises questions about the future of AI-generated content and its implications for artists and creators. The ruling emphasizes the need for clear guidelines regarding intellectual property rights in the age of AI.  
+Source URL: https://www.theverge.com/news/602096/copyright-office-says-ai-prompting-doesnt-deserve-copyright-protection  
+Category: policy  
+Published At: 2025-01-30  
+
+Title: Microsoft makes OpenAI’s o1 reasoning model free for all Copilot users  
+Excerpt: Tom Warren reports that Microsoft has made OpenAI's o1 reasoning model available for free to all users of its Copilot service. This move is aimed at enhancing the capabilities of Copilot, allowing users to leverage advanced AI reasoning in their workflows. The decision reflects Microsoft's commitment to integrating cutting-edge AI technologies into its products.  
+Source URL: https://www.theverge.com/news/603149/microsoft-openai-o1-model-copilot-think-deeper-free  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: OpenAI is putting its o1 models on Los Alamos Lab’s supercomputer  
+Excerpt: OpenAI has partnered with the Los Alamos National Laboratory to deploy its o1 reasoning models on the lab's supercomputer. This collaboration aims to support national security research and enhance the lab's capabilities in addressing various risks. OpenAI's involvement underscores its commitment to applying AI for significant societal challenges.  
+Source URL: https://www.theverge.com/news/603111/auto-draft  
+Category: research  
+Published At: 2025-01-30  
+
+Title: DeepSeek, Stargate, and the new AI arms race  
+Excerpt: Nilay Patel discusses the contrasting approaches of the Chinese chatbot DeepSeek and OpenAI's Stargate data center project in the evolving AI landscape. The article reflects on the competitive nature of AI development and the implications for global technology leadership. It highlights the strategic decisions being made by companies in response to the growing demand for AI capabilities.  
+Source URL: https://www.theverge.com/decoder-podcast-with-nilay-patel/603045/deepseek-stargate-ai-openai-chatgpt  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: Poshmark is introducing AI-generated product listings  
+Excerpt: Mia Sato reports that Poshmark is launching a new feature that uses AI to generate product listings for users. This innovation aims to streamline the selling process and enhance the shopping experience on the platform. The move reflects a growing trend among e-commerce platforms to incorporate AI technologies to improve user engagement and sales efficiency.  
+Source URL: https://www.theverge.com/online-shopping/600759/poshmark-ai-product-listing-tool  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: Books written by humans are getting their own certification  
+Excerpt: Jess Weatherbed discusses a new initiative that aims to certify books authored by humans, distinguishing them from AI-generated works. This certification is part of a broader effort to address concerns about the authenticity and originality of literary works in the age of AI. The move is seen as a response to the increasing prevalence of AI-generated content in the publishing industry.  
+Source URL: https://www.theverge.com/news/602918/human-authored-book-certification-ai-authors-guild  
+Category: policy  
+Published At: 2025-01-30  
+
+Title: Mark Zuckerberg says Meta isn’t worried about DeepSeek  
+Excerpt: Alex Heath reports on Mark Zuckerberg's comments regarding Meta's stance on the emerging AI chatbot DeepSeek. During a recent earnings call, Zuckerberg expressed confidence in Meta's position in the AI landscape, downplaying concerns about competition from DeepSeek. His remarks reflect Meta's ongoing strategy to innovate and lead in the AI space.  
+Source URL: https://www.theverge.com/news/602233/meta-deepseek-zuckerberg-earings-q4  
+Category: industry  
+Published At: 2025-01-30  
+
+Title: Gemini AI can automatically turn your spreadsheets into charts  
+Excerpt: Wes Davis reports that Google's Gemini AI can now automatically convert spreadsheets into visual charts, enhancing data presentation for users. This feature aims to simplify data analysis and improve accessibility for users who may not have advanced technical skills. The introduction of this capability reflects Google's commitment to making AI tools more user-friendly.  
+Source URL: https://www.theverge.com/news/602215/gemini-ai-can-automatically-turn-your-spreadsheets-into-charts  
+Category: industry  
+Published At: 2025-01-29  
+
+Title: Lee Zeldin, who wants to “make America the AI capital of the world” will lead the Environmental Protection Agency.  
+Excerpt: Justine Calma reports that the Senate has confirmed Lee Zeldin as the head of the Environmental Protection Agency. Zeldin's appointment comes with a mandate from Donald Trump to promote AI development while ensuring regulatory measures are streamlined for businesses. His confirmation is seen as a pivotal moment for the intersection of environmental policy and AI technology.  
+Source URL: https://www.theverge.com/news/602683/ai-lee-zeldin-epa-senate-confirmation  
+Category: policy  
+Published At: 2025-01-29  
+
+Title: US Navy jumps the DeepSeek ship.  
+Excerpt: Emma Roth reports that the U.S. Navy has issued a warning against using DeepSeek's AI chatbot, citing security and ethical concerns. The Navy's caution comes amid reports of malicious attacks on the platform, leading DeepSeek to limit user signups. This incident raises questions about the safety of AI technologies and their implications for military personnel.  
+Source URL: https://www.theverge.com/news/600932/shiver-me-timbers  
+Category: ethics  
+Published At: 2025-01-28  
+
+Title: This year’s Super Bowl will be full of AI ads  
+Excerpt: Wes Davis discusses the upcoming Super Bowl, which is expected to feature a significant number of advertisements centered around AI technologies. The article highlights the growing trend of AI in marketing and its potential impact on consumer engagement during the event. This shift reflects broader changes in advertising strategies as companies increasingly turn to AI for creative solutions.  
+Source URL: https://www.theverge.com/news/601691/this-years-super-bowl-will-be-full-of-ai-ads  
+Category: general  
+Published At: 2025-01-29  
+
+Title: OpenAI has evidence that its models helped train China’s DeepSeek  
+Excerpt: Jess Weatherbed reports that OpenAI has gathered evidence suggesting its models were used to train the Chinese AI startup DeepSeek. This revelation raises concerns about intellectual property and the implications of AI technology transfer across borders. The findings could have significant ramifications for OpenAI's partnerships and its approach to international collaborations in AI development.  
+Source URL: https://www.theverge.com/news/601195/openai-evidence-deepseek-distillation-ai-data  
+Category: ethics  
+Published At: 2025-01-29  
+
+Title: Apple gets into AI: all the news on iOS 18, macOS Sequoia, and more  
+Excerpt: Verge Staff covers Apple's latest developments in AI technology, including updates to iOS 18 and macOS Sequoia. The article outlines how Apple is integrating AI features into its operating systems to enhance user experience and functionality. This move is part of Apple's broader strategy to remain competitive in the rapidly evolving tech landscape.  
+Source URL: https://www.theverge.com/24246632/apple-intelligence-ios-18-ipad-os-18-macos-sequoia-iphone-16  
+Category: industry  
+Published At: 2025-01-29  
+
+Title: Someone might be squatting on DeepSeek’s trademark.  
+Excerpt: Emma Roth reports that a potential trademark conflict has arisen for DeepSeek, as another company filed for the trademark just before DeepSeek's application. This situation highlights the challenges startups face in protecting their intellectual property and the implications of trademark squatting. The article discusses the legal complexities surrounding trademark applications in the tech industry.  
+Source URL: https://www.theverge.com/news/602251/auto-draft  
+Category: policy  
+Published At: 2025-01-29  
+
+Title: Microsoft makes DeepSeek’s R1 model available on Azure AI and GitHub  
+Excerpt: Tom Warren reports that Microsoft has made DeepSeek's R1 model accessible on its Azure AI platform and GitHub. This availability aims to foster collaboration and innovation within the AI community. The move is part of Microsoft's strategy to enhance its AI offerings and support developers in leveraging advanced AI technologies.  
+Source URL: https://www.theverge.com/news/602162/microsoft-deepseek-r1-model-azure-ai-foundry-github  
+Category: industry  
+Published At: 2025-01-29  
+
+Title: Shell pours cold water on hope of ‘game-changer’ green fuels  
+Excerpt: Wael Sawan suggests low take-up of sustainable fuels means the chancellor’s ‘game-changer’ claim in the argument over Heathrow expansion rang hollow. The Shell CEO's comments highlight skepticism regarding the viability of green aviation fuels amidst ongoing discussions about environmental policies and aviation expansion.  
+Source URL: https://www.thetimes.com/business-money/technology/article/shell-boss-questions-reevess-optimism-on-green-aviation-fuels-qrcmz35ln  
+Category: policy  
+Published At: 2025-02-02  
+
+Title: A Sputnik moment — but has China really outsmarted America on AI?  
+Excerpt: Daniel Susskind explores whether China's advancements in AI represent a significant challenge to the US, likening it to a "Sputnik moment." The article discusses the implications of China's technological progress on global competitiveness and innovation.  
+Source URL: https://www.thetimes.com/us/news-today/article/a-sputnik-moment-but-has-china-really-outsmarted-the-us-on-ai-jk7zg98bt  
+Category: industry  
+Published At: 2025-02-02  
+
+Title: AstraZeneca scraps UK vaccine plant in blow to government  
+Excerpt: AstraZeneca has announced the closure of its UK vaccine plant, a decision that has significant implications for the government’s public health strategy. The move comes amid ongoing scrutiny of the pharmaceutical giant's operations and its commitment to the UK market.  
+Source URL: https://www.thetimes.com/business-money/technology/article/astrazeneca-news-share-price-speke-liverpool-latest-kljl9pxds  
+Category: policy  
+Published At: 2025-02-02  
+
+Title: ITV in talks with Abu Dhabi fund over studios merger  
+Excerpt: ITV is reportedly in discussions with an Abu Dhabi investment fund regarding a potential merger of its studios. This move could reshape the landscape of media production in the UK, highlighting the increasing interest from foreign investors in British media assets.  
+Source URL: https://www.thetimes.com/business-money/technology/article/itv-in-talks-with-abu-dhabi-fund-over-studios-merger-spvpqrshz  
+Category: industry  
+Published At: 2025-02-02  
+
+Title: ‘I’m done with corporate, now I want to find a cure for dementia’  
+Excerpt: The article features an individual who has left the corporate world to focus on finding a cure for dementia, emphasizing the personal motivations behind such a significant career shift. It highlights the challenges and aspirations of those dedicated to tackling complex health issues.  
+Source URL: https://www.thetimes.com/business-money/technology/article/im-done-with-corporate-now-i-want-to-find-a-cure-for-dementia-npgxrtkng  
+Category: ethics  
+Published At: 2025-02-02  
+
+Title: Apple beats income forecast but iPhone sales stall in China  
+Excerpt: Apple has reported better-than-expected income, although iPhone sales have stagnated in China. This mixed performance raises questions about the company's growth strategy in one of its largest markets, amid increasing competition and changing consumer preferences.  
+Source URL: https://www.thetimes.com/business-money/technology/article/apple-beats-income-forecast-but-iphone-sales-stall-in-china-sm0q07h6m  
+Category: industry  
+Published At: 2025-02-02  
+
+Title: OpenAI is in talks to raise nearly $40bn  
+Excerpt: OpenAI is reportedly negotiating to secure nearly $40 billion in funding, which would significantly bolster its resources for AI development. This potential influx of capital underscores the growing interest and investment in artificial intelligence technologies.  
+Source URL: https://www.thetimes.com/business-money/technology/article/openai-is-in-talks-to-raise-nearly-40bn-d55jtzffl  
+Category: funding  
+Published At: 2025-02-02  
+
+Title: Confused by DeepSeek? Deutsche Bank explains AI in geek speak  
+Excerpt: Deutsche Bank aims to demystify AI technologies like DeepSeek, providing insights into their implications for the financial sector. The article breaks down complex concepts into more accessible language for a broader audience, emphasizing the importance of understanding AI's impact.  
+Source URL: https://www.thetimes.com/business-money/technology/article/confused-by-deepseek-deutsche-bank-explains-ai-in-geek-speak-nt6d5m9k0  
+Category: research  
+Published At: 2025-02-02  
+
+Title: Wicked blockbuster magics up a rise in earnings for Comcast  
+Excerpt: Comcast has reported a rise in earnings, attributed to the success of its recent blockbuster productions. This financial boost highlights the company's strategic focus on content creation and its impact on overall profitability in a competitive media landscape.  
+Source URL: https://www.thetimes.com/business-money/technology/article/wicked-blockbuster-magics-up-a-rise-in-earnings-for-comcast-c73zm93zw  
+Category: industry  
+Published At: 2025-02-02  
+
+Title: [No articles found]
+Excerpt: [The provided raw webpage content does not contain any news articles or relevant information. The page appears to be a loading screen or a placeholder without accessible content.]
+Source URL: [Not available]
+Category: [general]
+Published At: [Not available]
+

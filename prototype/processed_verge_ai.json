@@ -1,0 +1,610 @@
+[
+  {
+    "title": "From ChatGPT to Gemini: how AI is rewriting the internet",
+    "excerpt": "How we use the internet is changing fast thanks to the advancement of AI-powered chatbots that can find information and redeliver it as a simple conversation.",
+    "source_url": "https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-02-03"
+  },
+  {
+    "title": "OpenAI teases \u2018Deep Research\u2019 stream at 7PM ET.",
+    "excerpt": "It\u2019s no 12 Days of Shipmas, but after a week of AI attention on the developments of DeepSeek, OpenAI has something to show off. A post on X says a livestream is scheduled for 4PM PT / 9AM JST, and we\u2019ll add the link here once it\u2019s available. Recent OpenAI announcements have included Sora, scheduled tasks in ChatGPT, and its computer-using Operator agent, so now we\u2019ll see what is coming next. Update: OpenAI has announced deep research for ChatGPT, find out more here.",
+    "source_url": "https://www.theverge.com/news/604900/openai-deep-research-livestream",
+    "source_name": "The Verge",
+    "category": "research",
+    "published_at": "2025-02-02"
+  },
+  {
+    "title": "Google\u2019s AI Super Bowl ad is wrong about cheese",
+    "excerpt": "Google\u2019s AI Super Bowl ad made a factual error about cheese, which was pointed out by viewers. The ad incorrectly stated that Gouda cheese is from France, when it is actually from the Netherlands. This mistake highlights the challenges AI faces in providing accurate information and the importance of human oversight in AI-generated content.",
+    "source_url": "https://www.theverge.com/news/604679/google-ai-super-bowl-ad-gouda-cheese",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-02-01"
+  },
+  {
+    "title": "Amazon is investing billions more into its Mississippi data centers.",
+    "excerpt": "The ecommerce giant will spend $16 billion building the two campuses in Jackson, MS \u2014 $6 billion more than what it originally planned to invest, according to state documents seen by Bloomberg. The biggest portion of its spending will go toward servers, fiber-optic cable, and other technology equipment, Bloomberg reports. Meta, OpenAI, and Elon Musk\u2019s xAI are similarly pouring billions into setting up data centers across the US.",
+    "source_url": "https://www.theverge.com/news/604677/amazon-is-investing-billions-more-into-its-mississippi-datacenter",
+    "source_name": "The Verge",
+    "category": "funding",
+    "published_at": "2025-02-01"
+  },
+  {
+    "title": "Microsoft is creating an \u201cAdvanced Planning Unit\u201d to study AI.",
+    "excerpt": "Just weeks after Microsoft established a new AI engineering division, the company\u2019s AI head Mustafa Suleyman announced that the company is recruiting for another team that will examine how AI will change our world. Here\u2019s how a job listing describes the new unit: The Advanced Planning Unit will operate in the Office of Microsoft AI\u2019s CEO and will combine cutting edge research across Microsoft and beyond, explore and articulate a range of possible scenarios for the future of AI, craft concrete product recommendations, and suggest planning outcomes based on them.",
+    "source_url": "https://www.theverge.com/news/604673/microsoft-is-forming-an-advanced-planning-unit-to-study-ai",
+    "source_name": "The Verge",
+    "category": "research",
+    "published_at": "2025-02-01"
+  },
+  {
+    "title": "GPT-5o will probably just be called GPT-5.",
+    "excerpt": "That\u2019s just one of the updates OpenAI CEO Sam Altman revealed during a Reddit AMA, saying that the launch of the next-gen model doesn\u2019t \u201chave a timeline yet.\u201d Altman also hinted at updates to advanced voice mode, as well as the full release of its o3 reasoning model in \u201cmore than a few weeks, less than a few months.\u201d",
+    "source_url": "https://www.theverge.com/news/604657/auto-draft",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-02-01"
+  },
+  {
+    "title": "Microsoft Paint is getting a Copilot button, too",
+    "excerpt": "Microsoft Paint is set to receive a new feature with the addition of a Copilot button. This update is part of Microsoft's broader strategy to integrate AI capabilities across its suite of applications. The Copilot feature is expected to enhance user experience by providing AI-driven suggestions and tools. This move aligns with Microsoft's ongoing efforts to leverage AI to improve productivity and creativity in its software offerings.",
+    "source_url": "https://www.theverge.com/news/604509/microsoft-paint-copilot-button",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Mr. Nvidia goes to the White House.",
+    "excerpt": "Jensen Huang, CEO of Nvidia, is scheduled to meet with President Trump at the White House. This meeting follows his absence from other significant tech events, including the presidential inauguration and the Stargate Project announcement. The discussion is expected to focus on Nvidia's role in AI advancements and its implications for national tech policies. This engagement highlights the growing importance of AI in governmental and technological dialogues.",
+    "source_url": "https://www.theverge.com/news/604454/mr-nvidia-goes-to-the-white-house",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "DeepSeek: all the news about the startup that\u2019s shaking up AI stocks",
+    "excerpt": "DeepSeek, a startup making waves in the AI industry, is attracting significant attention for its innovative technologies. The company's advancements have led to a surge in AI-related stocks, reflecting investor confidence in its potential. DeepSeek's approach is seen as a game-changer, with implications for both the tech industry and financial markets. This development underscores the dynamic nature of the AI sector and its impact on global markets.",
+    "source_url": "https://www.theverge.com/24353060/deepseek-ai-china-nvidia-openai",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "OpenAI launches new o3-mini reasoning model with a free ChatGPT version",
+    "excerpt": "OpenAI has introduced the o3-mini, a new reasoning model that includes a free version of ChatGPT. This launch is part of OpenAI's strategy to expand access to advanced AI tools and democratize AI technology. The o3-mini model is designed to enhance reasoning capabilities, making it a valuable tool for developers and businesses. This release marks a significant step in OpenAI's mission to make AI more accessible and beneficial to a broader audience.",
+    "source_url": "https://www.theverge.com/news/603849/openai-o3-mini-launch-chatgpt-api-available-now",
+    "source_name": "The Verge",
+    "category": "research",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "AI is \u2018an energy hog,\u2019 but DeepSeek could change that",
+    "excerpt": "DeepSeek claims its AI technology uses significantly less energy compared to competitors, addressing a major environmental concern. This innovation could lead to more sustainable AI development and deployment. However, questions remain about the broader environmental impact and the scalability of DeepSeek's solutions. This development highlights the ongoing debate about AI's energy consumption and the need for greener technologies.",
+    "source_url": "https://www.theverge.com/climate-change/603622/deepseek-ai-environment-energy-climate",
+    "source_name": "The Verge",
+    "category": "ethics",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Sam Altman\u2019s Stargate is science fiction",
+    "excerpt": "Sam Altman's Stargate project is touted as one of the largest private computing infrastructure initiatives. While it promises to revolutionize data processing, skeptics warn it could become a costly failure. The project has sparked discussions about the feasibility and risks of such ambitious tech ventures. This highlights the fine line between groundbreaking innovation and speculative hype in the tech industry.",
+    "source_url": "https://www.theverge.com/openai/603952/sam-altman-stargate-ai-data-center-plan-hype-funding",
+    "source_name": "The Verge",
+    "category": "funding",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "How DeepSeek crashed the AI party",
+    "excerpt": "In a recent episode of Vergecast, David Pierce discusses the unexpected entry of DeepSeek into the AI landscape, challenging established players like Nvidia and ChatGPT. The podcast delves into how DeepSeek's innovative approach is disrupting traditional AI models. Key figures in the industry have noted the rapid advancements DeepSeek has made, suggesting a potential shift in AI dynamics. The episode also explores the implications of such disruptions on global AI strategies, particularly in regions like China.",
+    "source_url": "https://www.theverge.com/the-vergecast/603920/deepseek-nvidia-chatgpt-china-vergecast",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Google\u2019s Gemini AI app is getting faster with Flash 2.0",
+    "excerpt": "Google has announced an update to its Gemini AI app, introducing Flash 2.0, which significantly enhances the app's processing speed. This development positions Google competitively in the AI space, as speed is a critical factor in AI applications. Jay Peters reports that the update aims to improve user experience by reducing latency and increasing efficiency. Industry experts suggest that this could lead to broader adoption of Google's AI solutions, impacting market dynamics.",
+    "source_url": "https://www.theverge.com/news/603821/google-gemini-flash-2-0-ai-app",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Mark Zuckerberg to employees in leaked all-hands meeting: \u2018buckle up\u2019",
+    "excerpt": "In a leaked all-hands meeting, Mark Zuckerberg addressed Meta employees, urging them to 'buckle up' for upcoming challenges. The meeting highlighted Meta's strategic shifts and the need for resilience in the face of industry changes. Alex Heath reports that Zuckerberg's message was clear: the company must adapt quickly to maintain its competitive edge. The leak has sparked discussions about Meta's internal culture and its future direction.",
+    "source_url": "https://www.theverge.com/command-line-newsletter/603754/mark-zuckerberg-tells-employees-to-buckle-up-in-leaked-all-hands-meeting",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Chip race: Microsoft, Meta, Google, and Nvidia battle it out for AI chip supremacy",
+    "excerpt": "The competition in the AI chip market intensifies as Microsoft, Meta, Google, and Nvidia vie for dominance. Each company is investing heavily in developing advanced AI chips to power their data centers and AI applications. The race is driven by the increasing demand for AI capabilities across various industries. Nvidia, known for its graphics processing units, is a key player, while Microsoft and Google leverage their cloud services to enhance AI processing. Meta is also making strides with its AI research and development. The outcome of this competition could significantly impact the future of AI technology.",
+    "source_url": "https://www.theverge.com/2024/2/1/24058186/ai-chips-meta-microsoft-google-nvidia",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Justice Department sues to block $14 billion acquisition by Hewlett Packard Enterprise.",
+    "excerpt": "The DOJ is challenging Hewlett Packard Enterprise's proposed $14 billion acquisition of Juniper Networks, an AI-native network company. The DOJ argues that the acquisition would allow HPE to eliminate a smaller, innovative competitor, potentially stifling competition in the enterprise networking market. HPE and Juniper Networks have criticized the DOJ's stance as 'fundamentally flawed' and are prepared to defend the merger. The outcome of this legal battle could have significant implications for the tech industry's competitive landscape.",
+    "source_url": "https://www.theverge.com/news/603703/doj-sues-to-block-14-billion-deal-hewlett-packard-enterprises",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Meta\u2019s Ray-Bans smart glasses sold more than 1 million units last year",
+    "excerpt": "Meta's Ray-Bans smart glasses have achieved significant commercial success, selling over 1 million units in the past year. This milestone highlights the growing consumer interest in wearable technology that integrates seamlessly with daily life. The glasses, which offer features like photo and video capture, are part of Meta's broader strategy to expand its presence in the augmented reality market. The sales figures underscore the potential for smart glasses to become a mainstream product, influencing future developments in wearable tech.",
+    "source_url": "https://www.theverge.com/meta/603674/meta-ray-ban-smart-glasses-sales",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Is Tesla still a car company?",
+    "excerpt": "Tesla's identity as a car company is being questioned as it increasingly focuses on AI and energy solutions. The company's recent earnings call emphasized its advancements in AI technology and energy products, suggesting a shift in strategic priorities. CEO Elon Musk highlighted Tesla's AI capabilities as a key differentiator, potentially redefining the company's role in the tech industry. This evolution raises questions about Tesla's future direction and its impact on the automotive sector.",
+    "source_url": "https://www.theverge.com/tesla/603393/tesla-car-company-elon-musk-ai-earnings",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Google\u2019s \u2018Ask for Me\u2019 uses AI to call local businesses for you",
+    "excerpt": "Google has introduced a new AI feature called 'Ask for Me' that can make phone calls to local businesses on behalf of users. This service is part of Google's ongoing efforts to integrate AI into everyday tasks, enhancing user convenience. The feature is currently being tested and aims to streamline interactions with businesses, potentially transforming how consumers engage with local services. Google's initiative reflects the growing trend of using AI to automate routine tasks, offering a glimpse into the future of AI-driven personal assistance.",
+    "source_url": "https://www.theverge.com/news/603501/google-ask-for-me-search-labs",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "OpenAI targets a $340 billion valuation.",
+    "excerpt": "The ChatGPT-maker is reportedly looking to raise up to $40 billion in funding at a $340 billion valuation. SoftBank would lead the round and invest up to $25 billion. SoftBank also announced last week it would be investing in a $500 billion datacenter project with OpenAI called Stargate. It's been reported that OpenAI and SoftBank will each invest $19 billion in that project. SoftBank tends to fund with debt \u2014 it already carries $150 billion on its books.",
+    "source_url": "https://www.theverge.com/2025/1/21/24348816/openai-softbank-ai-data-center-stargate-project",
+    "source_name": "The Verge",
+    "category": "funding",
+    "published_at": "2025-01-21"
+  },
+  {
+    "title": "The too-online finance dorks are at it again.",
+    "excerpt": "Incredible kicker from FT Alphaville, on top of some truly bizarre memes from Deutsche Bank. We love our blogging brethren. Deutsche Bank has published a bunch of memes about DeepSeek, highlighting the intersection of finance and internet culture. This move reflects the bank's attempt to engage with a younger, more online audience. The memes have sparked discussions about the role of humor and internet culture in traditional finance.",
+    "source_url": "https://www.theverge.com/business/603443/the-too-online-finance-dorks-are-at-it-again",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "DeepSeek database left user data, chat histories exposed for anyone to see",
+    "excerpt": "A breach in the DeepSeek database has left user data and chat histories exposed, raising significant security concerns. The breach highlights vulnerabilities in AI systems and the importance of robust security measures. This incident has implications for user privacy and trust in AI technologies. Experts are calling for stricter regulations and oversight to prevent such breaches in the future.",
+    "source_url": "https://www.theverge.com/news/603163/deepseek-breach-ai-security-database-exposed",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Inside Microsoft\u2019s quick embrace of DeepSeek",
+    "excerpt": "Microsoft has rapidly integrated DeepSeek into its Azure platform, showcasing its commitment to AI innovation. This move is part of Microsoft's broader strategy to enhance its AI capabilities and compete with other tech giants. The integration is expected to improve Azure's performance and attract more enterprise customers. Microsoft's quick adoption of DeepSeek reflects its aggressive approach to staying at the forefront of AI technology.",
+    "source_url": "https://www.theverge.com/notepad-microsoft-newsletter/603170/microsoft-deepseek-ai-azure-notepad",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Three months with Apple Intelligence",
+    "excerpt": "Apple Intelligence has been in use for three months, and the results are being assessed. The technology was expected to revolutionize user interaction with Apple devices. Early reviews indicate mixed results, with some users praising its capabilities while others highlight limitations. Apple's commitment to improving the technology is evident, and future updates are anticipated to address current shortcomings.",
+    "source_url": "https://www.theverge.com/apple/602270/apple-intelligence-video-container",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Purely AI-generated art can\u2019t get copyright protection, says Copyright Office",
+    "excerpt": "The US Copyright Office has declared that purely AI-generated art does not qualify for copyright protection. This decision stems from the notion that copyright law requires a human author, and AI-generated works lack this human element. The ruling could have significant implications for artists and companies using AI to create art. It underscores the ongoing debate about the role of AI in creative industries and the legal frameworks needed to address these advancements.",
+    "source_url": "https://www.theverge.com/news/602096/copyright-office-says-ai-prompting-doesnt-deserve-copyright-protection",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Microsoft makes OpenAI\u2019s o1 reasoning model free for all Copilot users",
+    "excerpt": "Microsoft has announced that it will make OpenAI's o1 reasoning model available for free to all users of its Copilot service. This move is aimed at enhancing the capabilities of Copilot by integrating advanced AI reasoning features. The o1 model is designed to improve the depth of understanding and context in AI interactions. Microsoft's decision reflects its commitment to democratizing access to cutting-edge AI technologies and could significantly impact productivity tools.",
+    "source_url": "https://www.theverge.com/news/603149/microsoft-openai-o1-model-copilot-think-deeper-free",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "OpenAI is putting its o1 models on Los Alamos Lab\u2019s supercomputer.",
+    "excerpt": "OpenAI is collaborating with the Los Alamos National Laboratory to install its o1 models on the lab's Nvidia-powered Venado supercomputer. This partnership is part of a broader effort to support national security research, with a focus on nuclear security and reducing nuclear war risks. OpenAI aims to foster collaborations across various CBRN risks, emphasizing the potential for AI to contribute to global safety and security. The initiative highlights the strategic importance of AI in national defense and security.",
+    "source_url": "https://www.theverge.com/news/603111/auto-draft",
+    "source_name": "The Verge",
+    "category": "research",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "DeepSeek, Stargate, and the new AI arms race",
+    "excerpt": "The emergence of DeepSeek and Stargate represents a new phase in the AI arms race, with significant implications for global technology leadership. The Chinese chatbot DeepSeek and OpenAI's Stargate data center venture highlight contrasting approaches to AI development. These initiatives underscore the competitive landscape in AI, where technological advancements are closely tied to national interests. The developments raise questions about the future of AI governance and the balance of power in the digital age.",
+    "source_url": "https://www.theverge.com/decoder-podcast-with-nilay-patel/603045/deepseek-stargate-ai-openai-chatgpt",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Poshmark is introducing AI-generated product listings",
+    "excerpt": "Poshmark is rolling out a new feature that uses AI to generate product listings for its users. This tool is designed to streamline the listing process by automatically creating descriptions based on product details. The introduction of AI-generated listings aims to enhance user experience and improve the efficiency of selling on the platform. Poshmark's initiative reflects a growing trend in e-commerce to leverage AI for operational improvements and customer engagement.",
+    "source_url": "https://www.theverge.com/online-shopping/600759/poshmark-ai-product-listing-tool",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Books written by humans are getting their own certification",
+    "excerpt": "The Authors Guild has introduced a new certification to distinguish books written by humans from those generated by AI. This initiative aims to address the growing concern over AI-generated content flooding the market, which could potentially devalue human authorship. The certification will serve as a mark of authenticity, ensuring readers that the content they are consuming is genuinely human-crafted. This move comes amid increasing debates over the ethical implications and originality of AI-generated literature. The Guild's decision reflects a broader industry trend towards transparency and consumer trust.",
+    "source_url": "https://www.theverge.com/news/602918/human-authored-book-certification-ai-authors-guild",
+    "source_name": "The Verge",
+    "category": "ethics",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Mark Zuckerberg says Meta isn\u2019t worried about DeepSeek",
+    "excerpt": "Mark Zuckerberg, CEO of Meta, has expressed confidence in the company's position despite the emergence of DeepSeek, a new competitor in the tech space. During a recent earnings call, Zuckerberg stated that Meta's focus remains on its core products and innovations, suggesting that DeepSeek does not pose a significant threat. He emphasized Meta's commitment to advancing its technology and maintaining its market leadership. This statement comes as Meta continues to navigate challenges in the rapidly evolving tech industry, where new players frequently emerge.",
+    "source_url": "https://www.theverge.com/news/602233/meta-deepseek-zuckerberg-earings-q4",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Gemini AI can automatically turn your spreadsheets into charts",
+    "excerpt": "Gemini AI, a new tool, offers the capability to transform spreadsheet data into visual charts automatically. This feature is designed to streamline data visualization processes, making it easier for users to interpret and present data. The AI-driven tool aims to enhance productivity by reducing the time and effort required to create charts manually. With the increasing reliance on data-driven decision-making, such innovations are becoming essential in various industries. The introduction of Gemini AI reflects the ongoing trend towards automation and efficiency in data management.",
+    "source_url": "https://www.theverge.com/news/602215/gemini-ai-can-automatically-turn-your-spreadsheets-into-charts",
+    "source_name": "The Verge",
+    "category": "technology",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "Lee Zeldin, who wants to \u201cmake America the AI capital of the world\u201d will lead the Environmental Protection Agency.",
+    "excerpt": "Lee Zeldin has been confirmed by the Senate to lead the Environmental Protection Agency (EPA). Appointed by Donald Trump, Zeldin is tasked with promoting deregulation to boost American businesses. His agenda includes removing barriers to the construction of energy-intensive AI data centers in the US. Zeldin's leadership is expected to focus on balancing environmental policies with economic growth, particularly in the tech sector. This appointment highlights the administration's commitment to positioning the US as a leader in AI development.",
+    "source_url": "https://www.theverge.com/news/602683/ai-lee-zeldin-epa-senate-confirmation",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "Someone might be squatting on DeepSeek\u2019s trademark.",
+    "excerpt": "Concerns have arisen over potential trademark issues surrounding DeepSeek, a new player in the tech industry. Reports suggest that an individual or entity may be squatting on the DeepSeek trademark, which could complicate the company's branding and legal standing. Trademark squatting involves registering a trademark with the intent of selling it at a profit to the rightful owner. This situation underscores the importance of securing intellectual property rights early in a company's development to avoid legal disputes and ensure brand integrity.",
+    "source_url": "https://www.theverge.com/news/602251/auto-draft",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "Microsoft makes DeepSeek\u2019s R1 model available on Azure AI and GitHub",
+    "excerpt": "Microsoft has announced that it is making DeepSeek's R1 model available on its Azure AI platform and GitHub. This move is part of Microsoft's strategy to integrate more AI capabilities into its cloud services, offering developers access to advanced AI models. The R1 model is noted for its capabilities in natural language processing and machine learning tasks. By providing this model on Azure AI, Microsoft aims to enhance the tools available for developers and researchers working on AI projects. This development could significantly impact the AI community by providing easier access to sophisticated AI models.",
+    "source_url": "https://www.theverge.com/news/602162/microsoft-deepseek-r1-model-azure-ai-foundry-github",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "This year\u2019s Super Bowl will be full of AI ads",
+    "excerpt": "The upcoming Super Bowl is set to feature a significant number of advertisements powered by artificial intelligence. This trend reflects the growing influence of AI in the advertising industry, where companies are leveraging AI technologies to create more engaging and personalized ads. The use of AI in Super Bowl ads is expected to showcase the capabilities of AI in understanding consumer preferences and delivering targeted content. As AI continues to evolve, its application in advertising could lead to more innovative and effective marketing strategies. This shift could have broad implications for how brands connect with audiences during major events.",
+    "source_url": "https://www.theverge.com/news/601691/this-years-super-bowl-will-be-full-of-ai-ads",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "OpenAI has evidence that its models helped train China\u2019s DeepSeek",
+    "excerpt": "OpenAI has presented evidence suggesting that its models have been used to train China's DeepSeek AI. This revelation highlights the complex dynamics of AI development and the sharing of AI technologies across borders. OpenAI's findings indicate that DeepSeek may have utilized OpenAI's models through a process known as model distillation. This process involves using a pre-trained model to enhance the performance of another model. The implications of this discovery are significant, as it raises questions about intellectual property and the ethical considerations of AI model sharing. OpenAI's evidence could prompt discussions on how AI models are used and shared globally.",
+    "source_url": "https://www.theverge.com/news/601195/openai-evidence-deepseek-distillation-ai-data",
+    "source_name": "The Verge",
+    "category": "ethics",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "Apple gets into AI: all the news on iOS 18, macOS Sequoia, and more",
+    "excerpt": "Apple is making significant strides into the AI space with its latest announcements surrounding iOS 18, iPadOS 18, and macOS Sequoia. These updates are set to enhance the user experience by integrating more intelligent features across Apple's ecosystem. The Verge Staff highlights Apple's strategic move to incorporate AI, which could potentially reshape how users interact with their devices. This development is seen as a response to the growing trend of AI integration in tech, with Apple aiming to maintain its competitive edge.",
+    "source_url": "https://www.theverge.com/24246632/apple-intelligence-ios-18-ipad-os-18-macos-sequoia-iphone-16",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "US Navy jumps the DeepSeek ship.",
+    "excerpt": "The US Navy has issued a warning to its sailors against using DeepSeek, a Chinese startup's AI chatbot, due to 'potential security and ethical concerns.' This decision follows DeepSeek's recent restriction on user signups, citing 'malicious attacks.' The Navy's caution reflects broader apprehensions about the security implications of AI technologies originating from foreign entities. The report from CNBC underscores the growing scrutiny of AI applications in sensitive sectors.",
+    "source_url": "https://www.theverge.com/news/600932/shiver-me-timbers",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-28"
+  },
+  {
+    "title": "Caption contest.",
+    "excerpt": "Amidst reports of a strained relationship between OpenAI and Microsoft, Sam Altman shares a selfie with Satya Nadella. Nadella has previously made comments regarding AI developments, including a remark on his financial standing and a quip about AI hype in response to Elon Musk. Despite these tensions, the photo suggests a facade of harmony between the two tech leaders. This situation highlights the complexities of partnerships in the rapidly evolving AI landscape.",
+    "source_url": "https://www.theverge.com/ai-artificial-intelligence/600243/caption-contest",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-28"
+  },
+  {
+    "title": "Microsoft is creating an \u201cAdvanced Planning Unit\u201d to study AI.",
+    "excerpt": "Microsoft is establishing an 'Advanced Planning Unit' to explore the future implications of AI. This initiative aims to develop scenarios for AI's future, make product recommendations, and suggest strategic planning outcomes. The unit will focus on understanding AI's potential impacts and crafting strategies to address them. This move underscores Microsoft's commitment to leading in AI research and development.",
+    "source_url": "https://www.theverge.com/news/604673/microsoft-is-forming-an-advanced-planning-unit-to-study-ai",
+    "source_name": "The Verge",
+    "category": "research",
+    "published_at": "2025-02-01"
+  },
+  {
+    "title": "GPT-5o will probably just be called GPT-5.",
+    "excerpt": "During a Reddit AMA, OpenAI CEO Sam Altman revealed that the next-generation model, likely to be named GPT-5, does not have a set launch timeline yet. Altman also mentioned upcoming updates to the advanced voice mode and the full release of the o3 reasoning model. These developments are expected to occur in 'more than a few weeks, less than a few months,' indicating a near-term rollout.",
+    "source_url": "https://www.theverge.com/news/604657/auto-draft",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-02-01"
+  },
+  {
+    "title": "Microsoft Paint is getting a Copilot button, too",
+    "excerpt": "Microsoft is integrating a Copilot button into Paint as part of a new Windows 11 preview. This feature will incorporate generative AI tools into the Paint application, making it more versatile for users. The move is part of Microsoft's broader strategy to embed AI functionalities across its software suite, enhancing user experience and productivity.",
+    "source_url": "https://www.theverge.com/news/604509/microsoft-paint-copilot-button",
+    "source_name": "The Verge",
+    "category": "tech",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Mr. Nvidia goes to the White House.",
+    "excerpt": "Nvidia CEO Jensen Huang is scheduled to meet with President Trump at the White House. Huang previously skipped the presidential inauguration and the Stargate Project announcement. This meeting highlights the ongoing dialogue between tech leaders and government officials regarding AI and technology policies.",
+    "source_url": "https://www.theverge.com/news/604454/mr-nvidia-goes-to-the-white-house",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "OpenAI launches new o3-mini reasoning model with a free ChatGPT version",
+    "excerpt": "OpenAI has introduced the o3-mini reasoning model, which is expected to outperform its predecessor, o1, by providing faster and more accurate responses. This model is available for free through ChatGPT, making advanced AI capabilities more accessible to the public. The launch reflects OpenAI's commitment to advancing AI technology and expanding its user base.",
+    "source_url": "https://www.theverge.com/news/603849/openai-o3-mini-launch-chatgpt-api-available-now",
+    "source_name": "The Verge",
+    "category": "tech",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "AI is \u2018an energy hog,\u2019 but DeepSeek could change that",
+    "excerpt": "DeepSeek, a Chinese startup, claims its AI models use significantly less energy than competitors, potentially reducing the environmental impact of AI technologies. However, questions remain about the broader implications for the environment. This development could lead to more sustainable AI practices if DeepSeek's claims hold true.",
+    "source_url": "https://www.theverge.com/climate-change/603622/deepseek-ai-environment-energy-climate",
+    "source_name": "The Verge",
+    "category": "environment",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Sam Altman\u2019s Stargate is science fiction",
+    "excerpt": "OpenAI's CEO Sam Altman is spearheading the Stargate project, which could become one of the largest private computing infrastructure initiatives ever. The project aims to revolutionize AI data centers, though it faces skepticism regarding its feasibility and potential impact. This ambitious plan underscores the growing intersection of AI and large-scale infrastructure development.",
+    "source_url": "https://www.theverge.com/openai/603952/sam-altman-stargate-ai-data-center-plan-hype-funding",
+    "source_name": "The Verge",
+    "category": "tech",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "How DeepSeek crashed the AI party",
+    "excerpt": "DeepSeek, a Chinese startup, has made waves in the AI industry with claims that its models rival those of OpenAI and Meta at a fraction of the cost. This has sparked significant interest and investment in the company, highlighting the competitive and rapidly evolving nature of the AI sector. The startup's emergence is reshaping the landscape of AI development and investment.",
+    "source_url": "https://www.theverge.com/the-vergecast/603920/deepseek-nvidia-chatgpt-china-vergecast",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Google\u2019s Gemini AI app is getting faster with Flash 2.0",
+    "excerpt": "Google is rolling out an improved version of its Gemini AI app, featuring the new Flash 2.0 model. This update enhances the app's speed and performance, providing users with quicker and more efficient AI interactions. The rollout is part of Google's ongoing efforts to refine its AI offerings and maintain a competitive edge in the market.",
+    "source_url": "https://www.theverge.com/news/603821/google-gemini-flash-2-0-ai-app",
+    "source_name": "The Verge",
+    "category": "tech",
+    "published_at": "2025-01-31"
+  },
+  {
+    "title": "Mark Zuckerberg to employees in leaked all-hands meeting: \u2018buckle up\u2019",
+    "excerpt": "In a leaked all-hands meeting, Meta CEO Mark Zuckerberg addressed concerns about company leaks, defended collaborations with Trump, and expressed enthusiasm for AI and smart glasses. Zuckerberg emphasized the need for resilience and adaptability as the company navigates these challenges. His remarks reflect Meta's strategic focus on AI and innovative technologies.",
+    "source_url": "https://www.theverge.com/command-line-newsletter/603754/mark-zuckerberg-tells-employees-to-buckle-up-in-leaked-all-hands-meeting",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Chip race: Microsoft, Meta, Google, and Nvidia battle it out for AI chip supremacy",
+    "excerpt": "The competition among tech giants like Microsoft, Meta, Google, and Nvidia to dominate the AI chip market is intensifying. These companies are investing heavily in developing more powerful chips to support the growing demands of AI technologies. This race highlights the strategic importance of hardware innovation in advancing AI capabilities.",
+    "source_url": "https://www.theverge.com/2024/2/1/24058186/ai-chips-meta-microsoft-google-nvidia",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Justice Department sues to block $14 billion acquisition by Hewlett Packard Enterprise.",
+    "excerpt": "The Department of Justice has filed a lawsuit to block Hewlett Packard Enterprise's $14 billion acquisition of Juniper Networks. The DOJ argues that the deal would reduce competition by eliminating a smaller, innovative rival in the enterprise networking market. HPE and Juniper Networks have vowed to contest the DOJ's decision, calling it 'fundamentally flawed.'",
+    "source_url": "https://www.theverge.com/news/603703/doj-sues-to-block-14-billion-deal-hewlett-packard-enterprises",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Meta\u2019s Ray-Bans smart glasses sold more than 1 million units last year",
+    "excerpt": "Meta's Ray-Bans smart glasses have achieved significant commercial success, selling over 1 million units in the past year. CEO Mark Zuckerberg emphasized the importance of introducing more people to Meta's AI glasses, highlighting their role in the company's broader strategy to integrate AI into consumer products. This success marks a milestone in Meta's wearable technology endeavors.",
+    "source_url": "https://www.theverge.com/meta/603674/meta-ray-ban-smart-glasses-sales",
+    "source_name": "The Verge",
+    "category": "tech",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Is Tesla still a car company?",
+    "excerpt": "Elon Musk is rebranding Tesla as an AI company, a strategy that appears to be gaining traction. This shift reflects Tesla's focus on integrating advanced AI technologies into its vehicles, enhancing their capabilities and market appeal. The rebranding effort underscores Tesla's ambition to position itself at the forefront of AI-driven innovation in the automotive industry.",
+    "source_url": "https://www.theverge.com/tesla/603393/tesla-car-company-elon-musk-ai-earnings",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Google\u2019s \u2018Ask for Me\u2019 uses AI to call local businesses for you",
+    "excerpt": "Google has introduced 'Ask for Me,' an AI feature that can make phone calls to local businesses on behalf of users. This tool can assist with tasks like scheduling appointments, showcasing Google's ongoing efforts to enhance user convenience through AI. The feature is part of Google's broader strategy to integrate AI into everyday interactions.",
+    "source_url": "https://www.theverge.com/news/603501/google-ask-for-me-search-labs",
+    "source_name": "The Verge",
+    "category": "tech",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "OpenAI targets a $340 billion valuation.",
+    "excerpt": "OpenAI is reportedly seeking to raise up to $40 billion in funding, aiming for a valuation of $340 billion. SoftBank is expected to lead the investment round, contributing up to $25 billion. This funding effort aligns with OpenAI's ambitious plans, including a $500 billion data center project called Stargate, in collaboration with SoftBank.",
+    "source_url": "https://www.theverge.com/openai/603577/openai-valuation-wsj-softbank",
+    "source_name": "The Verge",
+    "category": "funding",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "The too-online finance dorks are at it again.",
+    "excerpt": "The article discusses the peculiar trend of finance professionals engaging with bizarre memes, particularly those from Deutsche Bank. Elizabeth Lopatto highlights the unusual online behavior of these finance enthusiasts, suggesting a blend of humor and financial insights. The piece reflects on the cultural impact of such memes within the finance community, noting their potential to influence market perceptions. The article also mentions the role of blogging in disseminating these memes, emphasizing the interconnectedness of finance and digital culture.",
+    "source_url": "https://www.theverge.com/business/603443/the-too-online-finance-dorks-are-at-it-again",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "DeepSeek database left user data, chat histories exposed for anyone to see",
+    "excerpt": "Security researchers have uncovered a significant breach involving DeepSeek, where sensitive user data and chat histories were left exposed. The discovery was made 'within minutes,' highlighting the severity and ease of access to the compromised information. This incident raises concerns about the security measures in place for AI-driven platforms and the potential risks to user privacy. The article underscores the need for robust security protocols to protect sensitive data in the rapidly evolving AI landscape.",
+    "source_url": "https://www.theverge.com/news/603163/deepseek-breach-ai-security-database-exposed",
+    "source_name": "The Verge",
+    "category": "security",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Inside Microsoft\u2019s quick embrace of DeepSeek",
+    "excerpt": "Microsoft has swiftly integrated DeepSeek's AI models into its Azure platform, signaling a significant step in its AI strategy. The article explores Microsoft's readiness to adopt advanced AI technologies, emphasizing the company's commitment to innovation. Key developments include the deployment of DeepSeek's models to enhance Azure's capabilities, offering users more sophisticated AI tools. This move is expected to bolster Microsoft's position in the competitive AI market, highlighting the strategic importance of AI in its business operations.",
+    "source_url": "https://www.theverge.com/notepad-microsoft-newsletter/603170/microsoft-deepseek-ai-azure-notepad",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Three months with Apple Intelligence",
+    "excerpt": "The article reviews Apple's new AI initiative, Apple Intelligence, after three months of its release. It questions whether the technology has lived up to its promises, examining its impact on user experience and functionality. The piece provides insights into Apple's approach to AI, comparing it to competitors and assessing its market reception. The review highlights both the strengths and areas for improvement, offering a balanced perspective on Apple's foray into AI.",
+    "source_url": "https://www.theverge.com/apple/602270/apple-intelligence-video-container",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Purely AI-generated art can\u2019t get copyright protection, says Copyright Office",
+    "excerpt": "The US Copyright Office has ruled that purely AI-generated artworks are not eligible for copyright protection. However, works created by humans with AI elements can still be copyrighted as a whole. This decision has significant implications for artists and creators using AI in their work, as it delineates the boundaries of intellectual property rights in the digital age. The ruling reflects ongoing debates about the role of AI in creative industries and the legal frameworks governing it.",
+    "source_url": "https://www.theverge.com/news/602096/copyright-office-says-ai-prompting-doesnt-deserve-copyright-protection",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Microsoft makes OpenAI\u2019s o1 reasoning model free for all Copilot users",
+    "excerpt": "Microsoft has announced that OpenAI\u2019s o1 reasoning model, previously a paid feature, is now available for free to all Copilot users. This decision democratizes access to advanced AI tools, potentially accelerating innovation and adoption among developers. The article discusses the implications of this move for the AI community, highlighting Microsoft's strategy to enhance its AI offerings and strengthen its ecosystem. The availability of the o1 model is expected to drive further engagement with Microsoft's AI platforms.",
+    "source_url": "https://www.theverge.com/news/603149/microsoft-openai-o1-model-copilot-think-deeper-free",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "OpenAI is putting its o1 models on Los Alamos Lab\u2019s supercomputer.",
+    "excerpt": "OpenAI has partnered with the US National Laboratory to install its latest reasoning models on the Nvidia-powered Venado supercomputer. This collaboration aims to support national security research, focusing on reducing nuclear risks and securing materials. OpenAI anticipates broader safety collaborations across various risks, emphasizing the importance of AI in enhancing national security. The partnership reflects a strategic alignment between AI advancements and governmental research initiatives.",
+    "source_url": "https://www.theverge.com/news/603111/auto-draft",
+    "source_name": "The Verge",
+    "category": "research",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "DeepSeek, Stargate, and the new AI arms race",
+    "excerpt": "The article explores the competitive landscape of AI development, focusing on the contrasting approaches of DeepSeek and OpenAI. It highlights the strategic moves by both companies to establish dominance in the AI field, with DeepSeek's Chinese chatbot and OpenAI's data center ventures. The piece discusses the broader implications of this AI arms race, including potential impacts on global technology leadership and innovation. The analysis underscores the high stakes involved in the rapidly evolving AI sector.",
+    "source_url": "https://www.theverge.com/decoder-podcast-with-nilay-patel/603045/deepseek-stargate-ai-openai-chatgpt",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Poshmark is introducing AI-generated product listings",
+    "excerpt": "Poshmark has announced the introduction of AI-generated product listings, joining other resale platforms like eBay in leveraging AI tools. This feature aims to streamline the listing process for sellers, enhancing efficiency and accuracy. The article examines the potential benefits and challenges of AI integration in online marketplaces, highlighting its impact on user experience and business operations. The move reflects a growing trend of AI adoption in e-commerce, driven by the need for innovation and competitiveness.",
+    "source_url": "https://www.theverge.com/online-shopping/600759/poshmark-ai-product-listing-tool",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Books written by humans are getting their own certification",
+    "excerpt": "The US Authors Guild is launching a database to certify books not created by AI, providing a resource for readers seeking human-authored works. This initiative addresses concerns about the authenticity and originality of literary content in the age of AI. The certification aims to support authors and preserve the integrity of human creativity. The article discusses the implications for the publishing industry and the ongoing dialogue about AI's role in creative processes.",
+    "source_url": "https://www.theverge.com/news/602918/human-authored-book-certification-ai-authors-guild",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Mark Zuckerberg says Meta isn\u2019t worried about DeepSeek",
+    "excerpt": "In a recent earnings call, Mark Zuckerberg expressed confidence in Meta's strategic direction, stating that the company is not concerned about competition from DeepSeek. He emphasized Meta's focus on investing heavily in capital expenditures and infrastructure as a long-term advantage. The article highlights Zuckerberg's vision for Meta's future, despite the competitive pressures in the AI and social media landscape. His comments reflect Meta's commitment to maintaining its leadership position through strategic investments.",
+    "source_url": "https://www.theverge.com/news/602233/meta-deepseek-zuckerberg-earings-q4",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-30"
+  },
+  {
+    "title": "Gemini AI can automatically turn your spreadsheets into charts",
+    "excerpt": "Google's latest AI update to Sheets introduces Gemini, a feature that allows users to visualize data by automatically generating charts. This enhancement aims to simplify data analysis and presentation, making it more accessible to non-experts. The article discusses the potential impact of Gemini on productivity and decision-making, highlighting Google's commitment to integrating AI into its productivity tools. The update reflects the growing trend of AI-driven automation in everyday software applications.",
+    "source_url": "https://www.theverge.com/news/602215/gemini-ai-can-automatically-turn-your-spreadsheets-into-charts",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "Lee Zeldin, who wants to \u201cmake America the AI capital of the world\u201d will lead the Environmental Protection Agency.",
+    "excerpt": "The Senate has confirmed Lee Zeldin as the head of the Environmental Protection Agency. Zeldin, appointed by Donald Trump, is tasked with promoting deregulatory decisions to boost American business competitiveness. His agenda includes removing barriers to building AI data centers, reflecting a focus on making the US a leader in AI technology. The article examines the potential environmental and regulatory implications of Zeldin's leadership, highlighting the intersection of technology and policy.",
+    "source_url": "https://www.theverge.com/news/602683/ai-lee-zeldin-epa-senate-confirmation",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "Someone might be squatting on DeepSeek\u2019s trademark.",
+    "excerpt": "DeepSeek is facing a potential trademark issue as Delson Group has filed for the trademark before DeepSeek could. Delson Group's owner has a history of trademark squatting, which could complicate DeepSeek's branding efforts. The article discusses the implications of trademark squatting for businesses, emphasizing the challenges in securing intellectual property rights. It also notes that filing for a trademark does not guarantee its approval, leaving room for resolution.",
+    "source_url": "https://www.theverge.com/news/602251/auto-draft",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "Microsoft makes DeepSeek\u2019s R1 model available on Azure AI and GitHub",
+    "excerpt": "Microsoft has rapidly made DeepSeek's R1 model accessible to its Azure and GitHub users, showcasing its commitment to providing cutting-edge AI tools. This move is part of Microsoft's broader strategy to enhance its AI offerings and support developers in leveraging advanced technologies. The article highlights the significance of this development for Microsoft's AI ecosystem and the potential benefits for users seeking innovative solutions. The availability of the R1 model underscores the competitive dynamics in the AI industry.",
+    "source_url": "https://www.theverge.com/news/602162/microsoft-deepseek-r1-model-azure-ai-foundry-github",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "This year\u2019s Super Bowl will be full of AI ads",
+    "excerpt": "The upcoming Super Bowl is expected to feature a significant number of AI-related advertisements, reflecting the growing influence of AI in marketing. The article notes a decrease in ads from Hollywood and streaming companies, suggesting a shift in advertising strategies. This trend highlights the increasing importance of AI in consumer engagement and brand promotion. The presence of AI ads at such a high-profile event underscores the technology's impact on the advertising industry.",
+    "source_url": "https://www.theverge.com/news/601691/this-years-super-bowl-will-be-full-of-ai-ads",
+    "source_name": "The Verge",
+    "category": "general",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "OpenAI has evidence that its models helped train China\u2019s DeepSeek",
+    "excerpt": "OpenAI claims to have evidence that its models were used to train China's DeepSeek, highlighting the complex dynamics of AI development and intellectual property. The article discusses the implications of this revelation for international AI competition and the potential challenges in protecting proprietary technologies. OpenAI's findings raise questions about the transparency and ethics of AI training practices, emphasizing the need for clear guidelines and cooperation in the global AI landscape.",
+    "source_url": "https://www.theverge.com/news/601195/openai-evidence-deepseek-distillation-ai-data",
+    "source_name": "The Verge",
+    "category": "research",
+    "published_at": "2025-01-29"
+  },
+  {
+    "title": "US Navy jumps the DeepSeek ship.",
+    "excerpt": "The US Navy has issued a warning to its sailors against using a Chinese startup's AI chatbot, DeepSeek, due to potential security and ethical concerns. This decision follows a report from CNBC highlighting these issues. Additionally, DeepSeek has started limiting user signups as a response to 'malicious attacks.' This move underscores the growing apprehension surrounding AI technologies originating from China, emphasizing the need for caution in their deployment within sensitive sectors.",
+    "source_url": "https://www.theverge.com/news/600932/shiver-me-timbers",
+    "source_name": "The Verge",
+    "category": "policy",
+    "published_at": "2025-01-28"
+  },
+  {
+    "title": "Caption contest.",
+    "excerpt": "Amidst reports of a strained relationship between OpenAI and Microsoft, Sam Altman, CEO of OpenAI, shared a selfie with Microsoft's CEO, Satya Nadella. This comes after Nadella's remarks about being 'good for my $80 billion' in response to questions about the Stargate project and AI hype. The image suggests a facade of harmony despite underlying tensions, as both leaders navigate their companies' partnership dynamics.",
+    "source_url": "https://www.theverge.com/ai-artificial-intelligence/600243/caption-contest",
+    "source_name": "The Verge",
+    "category": "industry",
+    "published_at": "2025-01-28"
+  }
+]
