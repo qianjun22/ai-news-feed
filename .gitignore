@@ -11,6 +11,10 @@ package-lock.json
 config.js
 crawler/config/settings.py
 
+# Credentials
+apyhub_credentials.json
+prototype/apyhub_credentials.json
+
 # Generated assets
 assets/images/*.png
 assets/images/favicon-*.png
