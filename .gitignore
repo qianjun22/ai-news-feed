@@ -2,6 +2,13 @@
 node_modules/
 package-lock.json
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
 # Environment files
 .env
 .env.local
